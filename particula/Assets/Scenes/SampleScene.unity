@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 356897571}
   - component: {fileID: 356897570}
   m_Layer: 0
-  m_Name: Detalhes
+  m_Name: Cauda (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -932,7 +932,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0.1
     radius:
-      value: 15
+      value: 14.549445
       mode: 0
       spread: 0
       speed:
@@ -989,7 +989,7 @@ ParticleSystem:
           m_PostInfinity: 2
           m_RotationOrder: 4
     arc:
-      value: 360
+      value: 0
       mode: 3
       spread: 0.5
       speed:
@@ -1489,19 +1489,19 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 1}
-        key1: {r: 0.42745098, g: 0.68235296, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
-        key3: {r: 0, g: 0, b: 0, a: 0}
-        key4: {r: 0, g: 0, b: 0, a: 0}
+        key0: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 0.5019608}
+        key1: {r: 0.107645065, g: 0.29370004, b: 0.5566038, a: 1}
+        key2: {r: 0.51456904, g: 0.4039216, b: 0.94509804, a: 0}
+        key3: {r: 0.42745098, g: 0.68235296, b: 1, a: 0}
+        key4: {r: 0.99654925, g: 1, b: 0.427451, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 0
-        ctime1: 19661
-        ctime2: 0
-        ctime3: 0
-        ctime4: 0
+        ctime0: 4433
+        ctime1: 22359
+        ctime2: 31997
+        ctime3: 38357
+        ctime4: 51272
         ctime5: 0
         ctime6: 0
         ctime7: 0
@@ -1515,7 +1515,7 @@ ParticleSystem:
         atime7: 0
         m_Mode: 0
         m_ColorSpace: -1
-        m_NumColorKeys: 2
+        m_NumColorKeys: 5
         m_NumAlphaKeys: 2
       minGradient:
         serializedVersion: 2
@@ -4945,13 +4945,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356897569}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.47372946, y: -0.0019433622, z: 0.36434752, w: 0.8017652}
-  m_LocalPosition: {x: -3.9, y: 33.2, z: 105.5}
+  m_LocalRotation: {x: 0.42864108, y: -0.20171815, z: 0.6687177, w: 0.5730561}
+  m_LocalPosition: {x: 12.5, y: -2.3, z: -41.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 374313447}
+  m_LocalEulerAnglesHint: {x: 49.557, y: 31.827, z: 113.806}
+--- !u!1 &374313446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 374313447}
+  m_Layer: 0
+  m_Name: "Gal\xE1xia"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &374313447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374313446}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.778622, y: 36.237137, z: 135.9515}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1788117694}
+  - {fileID: 356897572}
+  - {fileID: 550922486}
+  - {fileID: 1338588428}
+  - {fileID: 539659223}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 49.557, y: 31.827, z: 63.872}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,7 +5137,7 @@ GameObject:
   - component: {fileID: 539659222}
   - component: {fileID: 539659221}
   m_Layer: 0
-  m_Name: Detalhes (3)
+  m_Name: Cauda (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6459,19 +6495,19 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 1}
-        key1: {r: 0.42745098, g: 0.68235296, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
-        key3: {r: 0, g: 0, b: 0, a: 0}
-        key4: {r: 0, g: 0, b: 0, a: 0}
+        key0: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 0.5019608}
+        key1: {r: 0.107645065, g: 0.29370004, b: 0.5566038, a: 1}
+        key2: {r: 0.51456904, g: 0.4039216, b: 0.94509804, a: 0}
+        key3: {r: 0.42745098, g: 0.68235296, b: 1, a: 0}
+        key4: {r: 0.99654925, g: 1, b: 0.427451, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 0
-        ctime1: 19661
-        ctime2: 0
-        ctime3: 0
-        ctime4: 0
+        ctime0: 4433
+        ctime1: 22359
+        ctime2: 31997
+        ctime3: 38357
+        ctime4: 51272
         ctime5: 0
         ctime6: 0
         ctime7: 0
@@ -6484,8 +6520,8 @@ ParticleSystem:
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_ColorSpace: -1
-        m_NumColorKeys: 2
+        m_ColorSpace: 0
+        m_NumColorKeys: 5
         m_NumAlphaKeys: 2
       minGradient:
         serializedVersion: 2
@@ -9916,11 +9952,11 @@ Transform:
   m_GameObject: {fileID: 539659220}
   serializedVersion: 2
   m_LocalRotation: {x: 0.42014349, y: 0.21886739, z: -0.05089517, w: 0.87919635}
-  m_LocalPosition: {x: -3.9, y: 33.2, z: 105.5}
+  m_LocalPosition: {x: 12.9, y: -3.2000008, z: -30.300003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 374313447}
   m_LocalEulerAnglesHint: {x: 49.557, y: 31.827, z: 8.369}
 --- !u!1 &550922483
 GameObject:
@@ -9934,7 +9970,7 @@ GameObject:
   - component: {fileID: 550922485}
   - component: {fileID: 550922484}
   m_Layer: 0
-  m_Name: Detalhes (1)
+  m_Name: Cauda (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11292,19 +11328,19 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 1}
-        key1: {r: 0.42745098, g: 0.68235296, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
-        key3: {r: 0, g: 0, b: 0, a: 0}
-        key4: {r: 0, g: 0, b: 0, a: 0}
+        key0: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 0.5019608}
+        key1: {r: 0.107645065, g: 0.29370004, b: 0.5566038, a: 1}
+        key2: {r: 0.51456904, g: 0.4039216, b: 0.94509804, a: 0}
+        key3: {r: 0.42745098, g: 0.68235296, b: 1, a: 0}
+        key4: {r: 0.99654925, g: 1, b: 0.427451, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 0
-        ctime1: 19661
-        ctime2: 0
-        ctime3: 0
-        ctime4: 0
+        ctime0: 4433
+        ctime1: 22359
+        ctime2: 31997
+        ctime3: 38357
+        ctime4: 51272
         ctime5: 0
         ctime6: 0
         ctime7: 0
@@ -11318,7 +11354,7 @@ ParticleSystem:
         atime7: 0
         m_Mode: 0
         m_ColorSpace: -1
-        m_NumColorKeys: 2
+        m_NumColorKeys: 5
         m_NumAlphaKeys: 2
       minGradient:
         serializedVersion: 2
@@ -14749,11 +14785,11 @@ Transform:
   m_GameObject: {fileID: 550922483}
   serializedVersion: 2
   m_LocalRotation: {x: 0.31679657, y: -0.35222626, z: 0.8386741, w: 0.2687051}
-  m_LocalPosition: {x: -3.9, y: 33.2, z: 105.5}
+  m_LocalPosition: {x: 12.9, y: -3.2000008, z: -30.300003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 374313447}
   m_LocalEulerAnglesHint: {x: 49.557, y: 31.827, z: 159.465}
 --- !u!1 &619394800
 GameObject:
@@ -14851,7 +14887,7 @@ GameObject:
   - component: {fileID: 1338588427}
   - component: {fileID: 1338588426}
   m_Layer: 0
-  m_Name: Detalhes (2)
+  m_Name: Cauda (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16209,19 +16245,19 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 1}
-        key1: {r: 0.42745098, g: 0.68235296, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
-        key3: {r: 0, g: 0, b: 0, a: 0}
-        key4: {r: 0, g: 0, b: 0, a: 0}
+        key0: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 0.5019608}
+        key1: {r: 0.107645065, g: 0.29370004, b: 0.5566038, a: 1}
+        key2: {r: 0.51456904, g: 0.4039216, b: 0.94509804, a: 0}
+        key3: {r: 0.42745098, g: 0.68235296, b: 1, a: 0}
+        key4: {r: 0.99654925, g: 1, b: 0.427451, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 0
-        ctime1: 19661
-        ctime2: 0
-        ctime3: 0
-        ctime4: 0
+        ctime0: 4433
+        ctime1: 22359
+        ctime2: 31997
+        ctime3: 38357
+        ctime4: 51272
         ctime5: 0
         ctime6: 0
         ctime7: 0
@@ -16235,7 +16271,7 @@ ParticleSystem:
         atime7: 0
         m_Mode: 0
         m_ColorSpace: -1
-        m_NumColorKeys: 2
+        m_NumColorKeys: 5
         m_NumAlphaKeys: 2
       minGradient:
         serializedVersion: 2
@@ -19666,11 +19702,11 @@ Transform:
   m_GameObject: {fileID: 1338588425}
   serializedVersion: 2
   m_LocalRotation: {x: -0.16073088, y: -0.44563326, z: 0.6331061, w: -0.612171}
-  m_LocalPosition: {x: -3.9, y: 33.2, z: 105.5}
+  m_LocalPosition: {x: 12.9, y: -3.2000008, z: -30.300003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 374313447}
   m_LocalEulerAnglesHint: {x: 49.557, y: 31.827, z: 283.069}
 --- !u!1 &1589843498
 GameObject:
@@ -21057,7 +21093,7 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 1}
+        key0: {r: 0.99925125, g: 1, b: 0.9858491, a: 1}
         key1: {r: 1, g: 1, b: 1, a: 0}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
@@ -24517,7 +24553,7 @@ GameObject:
   - component: {fileID: 1788117693}
   - component: {fileID: 1788117692}
   m_Layer: 0
-  m_Name: Galaxia
+  m_Name: Fundo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25877,17 +25913,17 @@ ParticleSystem:
         serializedVersion: 2
         key0: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 1}
         key1: {r: 0.42745098, g: 0.68235296, b: 1, a: 1}
-        key2: {r: 0.9490196, g: 0.6039216, b: 0.45490196, a: 1}
-        key3: {r: 1, g: 0.8901961, b: 0.6117647, a: 0}
-        key4: {r: 0.101960786, g: 0.10980392, b: 0.22745098, a: 0}
+        key2: {r: 0.51456904, g: 0.4039216, b: 0.94509804, a: 1}
+        key3: {r: 0.42745098, g: 0.68235296, b: 1, a: 0}
+        key4: {r: 0.99654925, g: 1, b: 0.427451, a: 0}
         key5: {r: 1, g: 0.99888176, b: 0.9764151, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
-        ctime1: 19661
-        ctime2: 39321
-        ctime3: 65535
-        ctime4: 65535
+        ctime1: 11565
+        ctime2: 29491
+        ctime3: 38357
+        ctime4: 58211
         ctime5: 17733
         ctime6: 0
         ctime7: 0
@@ -29332,12 +29368,12 @@ Transform:
   m_GameObject: {fileID: 1788117691}
   serializedVersion: 2
   m_LocalRotation: {x: 0.47620365, y: 0.019350052, z: 0.29964033, w: 0.82648134}
-  m_LocalPosition: {x: -3.2049549, y: 35.113976, z: 105.29535}
+  m_LocalPosition: {x: 13.578622, y: -1.2371368, z: -30.551506}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1589843499}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 374313447}
   m_LocalEulerAnglesHint: {x: 50.855, y: 30.181, z: 54.466}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -29345,8 +29381,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 1788117694}
-  - {fileID: 356897572}
-  - {fileID: 550922486}
-  - {fileID: 1338588428}
-  - {fileID: 539659223}
+  - {fileID: 374313447}
